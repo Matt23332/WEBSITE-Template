@@ -1,0 +1,72 @@
+/* General form styling */
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Form title styling */
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Label styling */
+label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #fdfdfd;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover effect for submit button */
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Focus effect for input fields */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0px 0px 4px rgba(0, 123, 255, 0.25);
+}
+
+/* Add some spacing between the fields */
+br {
+    margin-bottom: 5px;
+}
